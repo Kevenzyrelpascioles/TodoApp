@@ -272,7 +272,7 @@ export const ProfileSidebar = () => {
 
         <MenuLink to="https://github.com/maciekt07/TodoApp">
           <StyledMenuItem translate="no">
-            <GitHub /> &nbsp; Github{" "}
+            <GitHub /> &nbsp; Githubsssss{" "}
             {stars && (
               <Tooltip title={`${stars} stars on Github`}>
                 <MenuLabel clr="#ff9d00">
