@@ -7,8 +7,9 @@ import manifest from "./manifest";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  test: {
-    globals: true,
+  server: {
+    port: 2022, // or any number you want
+    host: true, // this allows network access (for QR code to work)
   },
   optimizeDeps: {
     exclude: ["@vite-pwa/assets-generator"],
