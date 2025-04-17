@@ -222,7 +222,7 @@ export const ProfileSidebar = () => {
         >
           <Logo src={logo} alt="logo" />
           <LogoText>
-            <span>To-do.</span> 
+            <span>ToDo KEVEN</span> 
             <span>.</span>
           </LogoText>
         </LogoContainer>
@@ -272,7 +272,7 @@ export const ProfileSidebar = () => {
 
         <MenuLink to="https://github.com/maciekt07/TodoApp">
           <StyledMenuItem translate="no">
-            <GitHub /> &nbsp; GitYolk{" "}
+            <GitHub /> &nbsp; Github{" "}
             {stars && (
               <Tooltip title={`${stars} stars on Github`}>
                 <MenuLabel clr="#ff9d00">
