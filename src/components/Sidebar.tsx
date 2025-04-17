@@ -222,7 +222,7 @@ export const ProfileSidebar = () => {
         >
           <Logo src={logo} alt="logo" />
           <LogoText>
-            <span>To Do List</span>
+            <span>To Do Lists </span>
             <span>.</span>
           </LogoText>
         </LogoContainer>
@@ -270,9 +270,9 @@ export const ProfileSidebar = () => {
 
         <StyledDivider />
 
-        <MenuLink to="https://github.com/maciekt07/TodoApp">
+        <MenuLink to="https://github.com/Kevenzyrelpascioles/TodoApp">
           <StyledMenuItem translate="no">
-            <GitHub /> &nbsp; GithubSSSS{" "}
+            <GitHub /> &nbsp; Github s{" "}
             {stars && (
               <Tooltip title={`${stars} stars on Github`}>
                 <MenuLabel clr="#ff9d00">
@@ -286,7 +286,7 @@ export const ProfileSidebar = () => {
           </StyledMenuItem>
         </MenuLink>
 
-        <MenuLink to="https://github.com/maciekt07/TodoApp/issues/new">
+        <MenuLink to="https://github.com/Kevenzyrelpascioles/TodoApp">
           <StyledMenuItem>
             <BugReportRounded /> &nbsp; Report Issue{" "}
             {Boolean(issuesCount || issuesCount === 0) && (

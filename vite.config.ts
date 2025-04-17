@@ -8,7 +8,7 @@ import manifest from "./manifest";
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    port: 2022, // or any number you want
+    port: 2021, // or any number you want
     host: true, // this allows network access (for QR code to work)
   },
   optimizeDeps: {
